@@ -1,0 +1,4 @@
+.test {
+  composes: text-green-500 lg-text-red-500 from global;
+  font-size: 32px;
+}

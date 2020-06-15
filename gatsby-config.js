@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    title: `Medallion House`,
+    description: `An exploratory operation with an independent label, providing an imaginative yet original shared experience through sonic and visual artist collaboration.`,
     author: `@gatsbyjs`,
   },
   plugins: [

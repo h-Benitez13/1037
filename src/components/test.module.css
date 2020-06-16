@@ -2,3 +2,8 @@
   composes: m-32 lg-text-black-500 from global;
   font-size: 64px;
 }
+
+.link {
+  text-decoration: none;
+  color: black;
+}

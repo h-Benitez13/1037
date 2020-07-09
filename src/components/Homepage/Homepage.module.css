@@ -66,6 +66,15 @@
   }
 }
 
+.userAccess {
+  display: grid;
+  place-items: center;
+  composes: mb-2 from global;
+  @media (min-width: 768px) {
+    margin-bottom: 300px;
+  }
+}
+
 .font {
   font-size: 12px;
   font-family: "Porsche";

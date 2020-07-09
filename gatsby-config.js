@@ -1,17 +1,17 @@
+const siteMetadata = require("./src/config/siteMetadata")
+const imagesPlugins = require("./src/config/plugins/images")
+
 module.exports = {
-  siteMetadata: {
-    title: `Medallion House`,
-    description: `An exploratory operation with an independent label, providing an imaginative yet original shared experience through sonic and visual artist collaboration.`,
-    author: `@gatsbyjs`,
-  },
+  siteMetadata,
   plugins: [
+    ...imagesPlugins(siteMetadata).plugins,
     `gatsby-plugin-postcss`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${__dirname}/src/images`,
+        path: `${__dirname}/src/img`,
       },
     },
     `gatsby-transformer-sharp`,
@@ -19,13 +19,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: siteMetadata.shortTitle,
+        short_name: siteMetadata.shortTitle,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
-        display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        background_color: `#ffffff`,
+        theme_color: `#ffffff`,
+        display: `standalone`,
+        icon: `src/img/favicon-coin.png`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality

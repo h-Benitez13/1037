@@ -1,21 +1,14 @@
 import React from "react"
-import { Link } from "gatsby"
+import Layout from "../components/Layout"
+import Homepage from "../components/Homepage"
 
-import Layout from "../components/layout"
-// import Image from "../components/image"
-import SEO from "../components/seo"
-import styles from "../components/test.module.css"
-
-const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      {/* <Image /> */}
-    </div>
-    <Link className={styles.link} to="/page-2/">
-      /page2
-    </Link>{" "}
-    <br />
+const SEOProps = {
+  title: null, // Use default
+  description: null, // Use default
+}
+const IndexPage = ({ location }) => (
+  <Layout location={location} {...SEOProps}>
+    <Homepage />
   </Layout>
 )
 

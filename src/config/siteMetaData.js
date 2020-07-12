@@ -13,7 +13,7 @@ module.exports = {
   shareImageHeight: 374,
 
   /* Site Navigation */
-  instagramUrl: "https://www.instagram.com/medallion.house",
+  instagramUrl: "https://www.instagram.com/medallion_house",
   // soundcloudUrl: "https://soundcloud.com/luxo",
   // spotifyUrl:
   //   "https://open.spotify.com/artist/3ECUg6kTV5tp9vJ2UFNYZ9?si=1xzfuV2JSPuusnS74qCHaA",

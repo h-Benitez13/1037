@@ -31,7 +31,7 @@ const Homepage = () => {
               shared experience through sonic and visual artist collaboration.
             </p>
             <a
-              href="https://www.instagram.com/medallion.house"
+              href="https://www.instagram.com/medallion_house"
               target="_blank"
               rel="noreferrer"
               title="Check us out on Instagram"

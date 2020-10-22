@@ -26,10 +26,6 @@ const Homepage = () => {
         </div>
         <div className={styles.missionContainer}>
           <div className={styles.userAccess}>
-            <p className={styles.font}>
-              An exploratory operation, providing an imaginative yet original
-              shared experience through sonic and visual artist collaboration.
-            </p>
             <a
               href="https://www.instagram.com/medallion_house"
               target="_blank"

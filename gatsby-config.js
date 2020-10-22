@@ -25,7 +25,7 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#ffffff`,
         display: `standalone`,
-        icon: `src/img/favicon-coin.png`, // This path is relative to the root of the site.
+        icon: `src/img/logo.png`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
